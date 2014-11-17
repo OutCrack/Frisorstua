@@ -1,0 +1,221 @@
+body{
+height:auto;
+width:100%;
+margin:0px;
+padding:0px;
+background: #e5e5e5;
+font-family:Berlin Sans FB;
+}
+
+#header{
+background: #e5e5e5;
+width: 80%;
+margin-left: 10%;
+margin-right:10%;
+}
+
+#logo{
+margin-top:-8em;
+margin-left:33%;
+height: 10em;
+width: 33%;
+cursor: pointer;
+position: static;
+margin-top:1em;
+}
+
+#windowsize{
+width: 80%;
+height: 35em;
+margin-bottom: 10em;
+margin-left:10%;
+border:2px solid #332830;
+background:#E8E7C1;
+}
+
+#firstnav{
+height:4em;
+width:100%;
+float:left;
+}
+
+button:focus{
+outline:0;
+}
+
+.Meny{
+color: white;
+height:3em;
+width:33.3333333%;
+float:left;
+background:#7f2d2d;
+border:1px solid black;
+cursor: pointer;
+font-size:1.3em;
+font-family:Berlin Sans FB;
+}
+
+#secondnav{
+display:none;
+width:33.3333333%;
+position:absolute;
+margin-top:3.8em;
+}
+
+#thirdnav{
+display:none;
+width:33.3333333%;
+margin-left:26.65%;
+position:absolute;
+margin-top:3.8em;
+}
+
+
+.sub{
+font-family: Berlin Sans FB;
+color: white;
+background:#592020;
+height: 2.5em;
+width:80%;
+border:1px solid black;
+cursor: pointer;
+}
+
+.sub:hover{
+background:#7f2d2d;
+}
+
+#venstresiden{
+width: 20%;
+height: 90%;
+float:left;
+margin-left:6%;
+margin-top:1%;
+}
+
+#startside2{
+width:28%;
+height: 90%;
+float: left;
+margin-left:9%;
+margin-top:1%;
+} 
+
+h1{
+color:#4F1C1C;
+font-size:2em;
+font-family:Berlin Sans FB;
+text-align: center;
+}
+
+h2{
+color:#1F0B0B;
+font-size:1em;
+font-family: Berlin Sans FB;
+text-align: center;
+}
+
+h2,h1{
+margin:0px;
+padding:0px;
+}
+
+#table{
+border:1px solid #332830;
+width:90%;
+height:90%;
+padding: 2px;
+font-size:1em;
+margin:10% 10% 10% 4%;
+text-align: center;
+font-family: Berlin Sans FB;
+}
+
+#table tr td {
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+#hÃ¸yreside{
+width: 21%;
+height: 94.5%;
+float:right;
+margin-right:6%;
+margin-top:1%;
+}
+
+#frame{
+float:left;
+margin-left:6%;
+margin-top:5%;
+}
+
+.footer{
+background: #7f2d2d;
+float: left;
+width: 80%;
+margin-left: 10%;
+margin-right:10%;
+height:auto;
+border-radius: 0px 0px 25px 25px;
+border:2px solid #332830;
+color: white;
+}
+
+.footer h3{
+padding-left:5%;
+}
+
+#info{
+float:left;
+}
+
+.footer #info{
+padding-left:5%;
+}
+
+#apning{
+width:20%;
+height:10%;
+font-size:0.8em;
+text-align: center;
+font-family: Berlin Sans FB;
+color:white;
+margin-left:38%;
+margin-top:-3%;
+}
+
+#windowsize,.footer{
+margin:0px;
+padding:0px;
+margin-left: 10%;
+margin-right:10%;
+}
+
+#syv{
+padding-top:8%;
+}
+
+#kontakt{
+width:15%;
+height:30%;
+padding: 2px;
+font-size:1.3em;
+text-align: center;
+font-family: Berlin Sans FB;
+float:right;
+margin-top:-16%;
+margin-right:10%;
+}
+
+#kontakt tr td {
+padding-top: 7px;
+padding-bottom: 7px;
+}
+
+#kont{
+font-size:1.5em;
+margin-left:50%;
+text-align:left;
+width:30%;
+}
