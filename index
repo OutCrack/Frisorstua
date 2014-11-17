@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<link type = text/css rel = stylesheet media = screen href = projectstyle.css >
+		<script type = "text/javascript" src = "projectscript.js" ></script>
+
+			<title>Frisørstua</title>
+			<meta charset = "UTF-8"/>
+			<meta name = "description" content = "Frisørstua i Melsomvik" />
+			<meta name = "keywords" content = "Frisørstua, Melsomvik, frisør, klipping, manikyr, pedikyr, farging" />
+			<meta name = "author" content = "Arthur M. Nordnes, Sergio Rye, Stèphane Ernhardt, Andreas Stenseng Bjørnrud" />
+
+	</head>
+
+	<body id = "body">
+
+		<div id="header"><img id = "logo" onclick = "showContent1()" src = "logo3.png" />
+		</div>
+
+
+				<button id = "Meny1" class = "Meny" onmouseover = "showsubMeny1()">Hjem</button>
+				<button id = "Meny2" class = "Meny" on		<div id = "windowsize">
+
+			<nav id = "firstnav">mouseover = "showsubMeny2()">Behandlinger</button>
+				<button id = "Meny3" class = "Meny" onmouseover = "hidesubMeny()" onclick = "showContent7()">Kontakt Oss</button>
+			<nav>
+
+			<nav id = "secondnav">
+				<button id = "subMeny1" class = "sub" onmousedown = "showContent1()" onmouseup = "hidesubMeny()">Åpningtider</button>
+				<button id = "subMeny2" class = "sub" onmousedown = "showContent2()" onmouseup = "hidesubMeny()">Om Salongen</button>
+				<button id = "subMeny3" class = "sub" onmousedown = "showContent3()" onmouseup = "hidesubMeny()">Ansatte</button>
+			</nav>
+
+			<nav id = "thirdnav">
+				<button id = "subMeny4" class = "sub" onmousedown = "showContent4()" onmouseup = "hidesubMeny()"> Klipping</button>
+				<button id = "subMeny5" class = "sub" onmousedown = "showContent5()" onmouseup = "hidesubMeny()"> Negldesign</button>
+				<button id = "subMeny6" class = "sub" onmousedown = "showContent6()" onmouseup = "hidesubMeny()"> Produkter</button>
+			</nav>
+
+			<div id = "section1" onmouseover = "hidesubMeny()">
+				<section id = "førsteside" style = "display:block;">
+					<img id = "venstresiden" src = "startsidebilde.png"/>
+						<div id = "startside2">
+							<h1>ÅPNINGSTIDER</h1>
+							<h2>VELKOMMEN TIL FRISØRSTUA!</h2>
+							<table id = "table">
+								<tr>
+									<td>Mandag</td>
+									<td>Stengt</td>
+								</tr>
+
+								<tr>
+									<td>Tirsdag</td>
+									<td>09.00 - 16.00</td>
+								</tr>
+
+								<tr>
+									<td>Onsdag</td>
+									<td>09.00 - 18.00</td>
+								</tr>
+
+								<tr>
+									<td>Torsdag</td>
+									<td>09.00 - 16.00</td>
+								</tr>
+
+								<tr>
+									<td>Fredag</td>
+									<td>09.00 - 16.00</td>
+								</tr>
+
+								<tr>
+									<td>Lørdag</td>
+									<td>09.00 - 16.00</td>
+								</tr>
+
+								<tr>
+									<td>Søndag</td>
+									<td>Stengt</td>
+								</tr>
+							</table>
+						</div>
+					<img id = "høyreside" src = "startsidebilde2.png"/>
+				</section>
+
+				<section id = "andreside" style = "display:none;">
+					<h1>Om Salongen</h1>
+
+
+				</section>
+
+				<section id = "tredjeside" style = "display:none;">
+					<h1>Ansatte</h1>
+				</section>
+
+				<section id = "fjerdeside" style = "display:none;">
+					<h1>Klipping</h1>
+				</section>
+
+				<section id = "femteside" style = "display:none;">
+					<h1>Negledesign</h1>
+				</section>
+
+				<section id = "sjetteside" style = "display:none;">
+					<h1>Produkter</h1>
+				</section>
+
+				<section id = "syvendeside" style = "display:none;">
+					<iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2041.4320050980987!2d10.335048407354819!3d59.225508972475716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646b8384b9e1107%3A0xd2f0e23782f1ac08!2sFris%C3%B8rstua+Limited!5e0!3m2!1sen!2sno!4v1416151773732&zoom=0" width="600" height="450" frameborder="0" style="border:0"></iframe>
+					<div id="syv">
+					<h1 id="kontover">Kontakt oss</h1>
+					<p id="kont">Ring og bestill time på<br><em>33338960</em><br><br>Konowsvei 2<br>3159 Melsomvik<br><br>E-post<br>olgamichule@hotmail.com</p>
+					<table id = "kontakt">
+						<tr>
+							<td>Mandag</td>
+							<td>Stengt</td>
+						</tr>
+
+						<tr>
+							<td>Tirsdag</td>
+							<td>09.00 - 16.00</td>
+						</tr>
+
+						<tr>
+							<td>Onsdag</td>
+							<td>09.00 - 18.00</td>
+						</tr>
+
+						<tr>
+							<td>Torsdag</td>
+							<td>09.00 - 16.00</td>
+						</tr>
+
+						<tr>
+							<td>Fredag</td>
+							<td>09.00 - 16.00</td>
+						</tr>
+
+						<tr>
+							<td>Lørdag</td>
+							<td>09.00 - 16.00</td>
+						</tr>
+
+						<tr>
+							<td>Søndag</td>
+							<td>Stengt</td>
+						</tr>
+					</table>
+					</div>
+
+				</section>
+			</div>
+		</div>
+
+		<div class="footer">
+			<h3>Frisør - Fotpleie - Negledesign</h3>
+			<p id="info">Konowsvei 2<br>3159 Melsomvik<br>Tlf.: 33338960<br>olgamichule@hotmail.com</p>
+			<table id = "apning">
+				<tr>
+					<td>Mandag</td>
+					<td>Stengt</td>
+				</tr>
+
+				<tr>
+					<td>Tirsdag</td>
+					<td>09.00 - 16.00</td>
+				</tr>
+
+				<tr>
+					<td>Onsdag</td>
+					<td>09.00 - 18.00</td>
+				</tr>
+
+				<tr>
+					<td>Torsdag</td>
+					<td>09.00 - 16.00</td>
+				</tr>
+
+				<tr>
+					<td>Fredag</td>
+					<td>09.00 - 16.00</td>
+				</tr>
+
+				<tr>
+					<td>Lørdag</td>
+					<td>09.00 - 16.00</td>
+				</tr>
+
+				<tr>
+					<td>Søndag</td>
+					<td>Stengt</td>
+				</tr>
+			</table>
+		</div>
+
+
+
+	</body>
+</html>
